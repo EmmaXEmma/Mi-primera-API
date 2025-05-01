@@ -41,3 +41,5 @@ def recibir_nombre():
         nombres.append(nombre)
     return jsonify({"status": "ok", "nombres": nombres})
 
+if __name__ == "__main__":
+    app.run(debug=True)
